@@ -4,6 +4,8 @@ The aim of this project is to detect the buildings from the bird's-eye view pict
 [matterport's Mask RCNN](https://github.com/matterport/Mask_RCNN) implementation was used not to waste time by coding all the details
 of Mask-RCNN.  
 
+(If you only need pretrained weight file, Here is [my pretrained h5 file](https://drive.google.com/file/d/1X-vodJEXvnu6uEn0TDLt1VhHkT17eOkG/view?usp=sharing))
+
 ## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult) first
 ![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png) 
 ![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(5).png) 
