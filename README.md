@@ -7,7 +7,7 @@ Lets get started..
 
 ### Project is divided into 5 steps:
 #### -Download the dataset.
-#### -Understanding the Mask-RCNN
+#### -Understand the Mask-RCNN
 #### -İmplement the Mask-RCNN
 #### -Preprocess the data
-#### -Train & Test
+#### -Training & Testing
