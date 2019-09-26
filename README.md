@@ -46,7 +46,8 @@ If you want to see RGB and its corresponding Mask, run [Display_Mask_and_RGB_Ima
 
 # 5- Training the Model & Testing
 To train the model, you need to know what size of model your computer can work with. For example, I was using 'resnet101' as a backbone,
-but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [Train.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Train.ipynb) part. 
+but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [Train.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Train.ipynb) part. Another thing that may be helpful for you,
+I share [my trained h5 file](https://drive.google.com/file/d/1X-vodJEXvnu6uEn0TDLt1VhHkT17eOkG/view?usp=sharing). I trained 800 epoach for both heads and 3+ part of the model.
 
 
 
