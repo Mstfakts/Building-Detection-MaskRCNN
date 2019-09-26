@@ -5,7 +5,9 @@ The aim of this project is to detect the buildings from the bird's-eye view pict
 of Mask-RCNN.  
 
 (If you only need pretrained weight file, Here is [my pretrained h5 file](https://drive.google.com/file/d/1X-vodJEXvnu6uEn0TDLt1VhHkT17eOkG/view?usp=sharing))
-(If you can not open the files, open [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
+
+
+(If the files are not opened, click [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
 
 ## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult) first
 ![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png) 
