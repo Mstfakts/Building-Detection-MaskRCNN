@@ -36,3 +36,15 @@ We have the dataset and its files' name are in order, but its format it TIFF. So
 [TIF_to_RGB.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TIF_to_RGB.ipynb)
 
 To train the model, we need the labels, too. We will create these labels by using TIFF files and its corresponding GeoJSON files. We need the TIFF file to adjust the position of the GeoJSON coordinates to the specific picture. You only need to follow [Create_Masks.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Create_Masks.ipynb)
+
+If you want to see RGB and its corresponding Mask, run [Display_Mask_and_RGB_Image.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Display_Mask_and_RGB_Image.ipynb)
+
+# 5- Training the Model & Testing
+To train the model, you need to know what size of model your computer can work with. For example, I was using 'resnet101' as a backbone,
+but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [Train.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Train.ipynb) part. 
+
+
+
+That's it. If you need more clarification or have any question please send me an email;
+
+mstfakts98@gmail.com
