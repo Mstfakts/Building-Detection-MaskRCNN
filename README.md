@@ -7,7 +7,7 @@ of Mask-RCNN.
 Lets get started..
 
 ### Project is divided into 5 steps:
-#### -Download the SpaceNet Dataset
+#### -[Download the SpaceNet Dataset](https://github.com/Mstfakts/Building-Detection-MaskRCNN#1--download-the-spacenet-dataset)
 #### -Understand the Mask-RCNN
 #### -Implement the Mask-RCNN
 #### -Preprocess the data
