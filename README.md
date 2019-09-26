@@ -9,7 +9,7 @@ Lets get started..
 ### Project is divided into 5 steps:
 #### -Download the SpaceNet Dataset
 #### -Understand the Mask-RCNN
-#### -İmplement the Mask-RCNN
+#### -Implement the Mask-RCNN
 #### -Preprocess the data
 #### -Training & Testing
 
