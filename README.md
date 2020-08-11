@@ -1,4 +1,4 @@
-# Building-Detection-MaskRCNN
+# Building-Detection-MaskRCNN v2.0
 The aim of this project is to detect the buildings from the bird's-eye view pictures. I used
 [SpaceNet dataset](https://spacenetchallenge.github.io) as a dataset. Because I had limited time,
 [matterport's Mask RCNN](https://github.com/matterport/Mask_RCNN) implementation was used not to waste time by coding all the details
@@ -9,11 +9,14 @@ of Mask-RCNN.
 
 (If the files are not opened, click [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
 
-## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult) first
-![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png) 
-![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(5).png) 
-![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(7).png) 
-![Alt Text](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(18).png) 
+## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult_v2) of version 2.0.
+### Former [outputs](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult)
+![TestResult_v2/Test1.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test1.png) 
+![TestResult_v2/Test2.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test2.png) 
+![TestResult_v2/Test3.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test3.png) 
+![TestResult_v2/Test8.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test8.png)
+Here is an output from version 1.0:
+![TestResult/successful (1).png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png)
 
 ### Project is divided into 5 steps:
 #### - [Download the SpaceNet Dataset](https://github.com/Mstfakts/Building-Detection-MaskRCNN#1--download-the-spacenet-dataset)
@@ -43,7 +46,7 @@ After you download the dataset, you can check how geojson files look like by run
 While I was striving to complete this project, I got lots of errors because of the name of the training files. After you download the training dataset, you will notice that the name of files are not in order. I mean, the data includes 'RGB-PanSharpen_AOI_2_Vegas_img1.tif' and 'RGB-PanSharpen_AOI_2_Vegas_img3.tif' but 'RGB-PanSharpen_AOI_2_Vegas_img2.tif'. So, We need to put them in order. To do this, you can run [Rename_Files.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Rename_Files.ipynb)
 
 We have the dataset and its files' name are in order, but its format it TIFF. So, I converted TIFF file to the RGB file by running
-[TIF_to_RGB.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TIF_to_RGB.ipynb)
+[TIF_to_PNG.py](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TIF_to_PNG.py)
 
 To train the model, we need the labels, too. We will create these labels by using TIFF files and its corresponding GeoJSON files. We need the TIFF file to adjust the position of the GeoJSON coordinates to the specific picture. You only need to follow [Create_Masks.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Create_Masks.ipynb)
 
@@ -51,9 +54,8 @@ If you want to see RGB and its corresponding Mask, run [Display_Mask_and_RGB_Ima
 
 # 5- Training the Model & Testing
 To train the model, you need to know what size of model your computer can work with. For example, I was using 'resnet101' as a backbone,
-but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [Train.ipynb](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/Train.ipynb) part. Another thing that may be helpful for you,
-I share [my trained h5 file](https://drive.google.com/file/d/1X-vodJEXvnu6uEn0TDLt1VhHkT17eOkG/view?usp=sharing). I trained 800 epoach for both heads and 3+ part of the model.
-
+but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [SpaceNet_train.py](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/SpaceNet_train.py) part. Another thing that may be helpful for you,
+I share my trained h5 file (Send an email to the mail-address below). I trained 151 epoach for 'all' part of the model.
 
 
 That's it. If you need more clarification or have any question please send me an email;
