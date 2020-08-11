@@ -4,18 +4,18 @@ The aim of this project is to detect the buildings from the bird's-eye view pict
 [matterport's Mask RCNN](https://github.com/matterport/Mask_RCNN) implementation was used not to waste time by coding all the details
 of Mask-RCNN.  
 
-(If you only need pretrained weight file, Here is [my pretrained h5 file](https://drive.google.com/file/d/1X-vodJEXvnu6uEn0TDLt1VhHkT17eOkG/view?usp=sharing))
-
+(If you only need pretrained weight file, send an email to mstfakts98@gmail.com. I will respond in 2-3 hours.)
 
 (If the files are not opened, click [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
 
 ## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult_v2) of version 2.0.
-### Former [outputs](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult)
+#### Former [outputs](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult)
 ![TestResult_v2/Test1.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test1.png) 
 ![TestResult_v2/Test2.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test2.png) 
 ![TestResult_v2/Test3.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test3.png) 
 ![TestResult_v2/Test8.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test8.png)
-Here is an output from version 1.0:
+
+**Here is an output from version 1.0 (See how the model was improved.):**
 ![TestResult/successful (1).png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png)
 
 ### Project is divided into 5 steps:
