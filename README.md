@@ -9,13 +9,12 @@ of Mask-RCNN.
 (If the files are not opened, click [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
 
 ## You may want to check all the [Results](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult_v2) of version 2.0.
-#### Former [outputs](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult)
 ![TestResult_v2/Test1.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test1.png) 
 ![TestResult_v2/Test2.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test2.png) 
 ![TestResult_v2/Test3.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test3.png) 
 ![TestResult_v2/Test8.png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult_v2/Test8.png)
 
-**Here is an output from version 1.0 (See how the model was improved.):**
+**Here is an output from version 1.0 (See how the model was improved.) ([All former outputs](https://github.com/Mstfakts/Building-Detection-MaskRCNN/tree/master/TestResult)):**
 ![TestResult/successful (1).png](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/TestResult/successful%20(1).png)
 
 ### Project is divided into 5 steps:
