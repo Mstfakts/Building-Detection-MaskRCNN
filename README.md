@@ -4,7 +4,7 @@ The aim of this project is to detect the buildings from the bird's-eye view pict
 [matterport's Mask RCNN](https://github.com/matterport/Mask_RCNN) implementation was used not to waste time by coding all the details
 of Mask-RCNN.  
 
-(If you only need pretrained weight file, send an email to mstfakts98@gmail.com. I will respond in 2-3 hours.)
+(If you only need pretrained weight file, leave a star for this project and send an email to mstfakts98@gmail.com. I will respond in 2-3 hours.)
 
 (If the files are not opened, click [nbviewer](https://nbviewer.jupyter.org) and copy+paste the files' link)
 
@@ -54,7 +54,7 @@ If you want to see RGB and its corresponding Mask, run [Display_Mask_and_RGB_Ima
 # 5- Training the Model & Testing
 To train the model, you need to know what size of model your computer can work with. For example, I was using 'resnet101' as a backbone,
 but I got OOM (Out Of Memory) error, then I reduced it to the 'resnet50'. If it is possible, try to work with 'resnet101'. Also, do not forget to adjust configuration part regarding to your computer and dataset. Please analyze the [SpaceNet_train.py](https://github.com/Mstfakts/Building-Detection-MaskRCNN/blob/master/SpaceNet_train.py) part. Another thing that may be helpful for you,
-I share my trained h5 file (Send an email to the mail-address below). I trained 151 epoach for 'all' part of the model.
+I share my trained h5 file (leave a star for this project and send an email to the mail-address below). I trained 151 epoach for 'all' part of the model.
 
 
 That's it. If you need more clarification or have any question please send me an email;
